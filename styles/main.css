@@ -8,8 +8,6 @@ tony@barmej.com
 */
 /*----------------------------------------------*/
 
-
-
 /*----------------------١-----------------------*/
 /*
 Fonts & Font-faces سنقوم بوضع جميع الخطوط التي سنحتاجها هنا
@@ -19,8 +17,22 @@ Avenir Next
 Lato
 */
 /*---------------------------------------------*/
-
-
+@font-face {
+  font-family: AvenirNextRegular;
+  src: url(/fonts/AvenirNext-Regular.woff);
+}
+@font-face {
+  font-family: AvenirNextMedium;
+  src: url(/fonts/AvenirNext-Medium.woff);
+}
+@font-face {
+  font-family: AvenirNextDemiBold;
+  src: url(/fonts/AvenirNext-DemiBold.woff);
+}
+@font-face {
+  font-family: AvenirNextBold;
+  src: url(/fonts/AvenirNext-Bold.woff);
+}
 /*----------------------٢-----------------------*/
 /*                  DEFAULTS                    */
 /*
@@ -29,9 +41,47 @@ html, body, h1, h2, p
 وهي الأنماط التي تنطبق على الموقع بشكل عام وكل صفحاته وليس على عنصر معين في صفحة معينة
 */
 /*----------------------------------------------*/
-
-
-
+body {
+  margin: 0;
+}
+* {
+  font-family: AvenirNextRegular;
+}
+h1 {
+  font-family: AvenirNextBold;
+  font-size: xx-large;
+}
+h2,
+h4 {
+  font-family: AvenirNextDemiBold;
+  text-align: center;
+}
+h5 {
+  font-family: AvenirNextDemiBold;
+  font-size: medium;
+}
+h2 {
+  padding: 150px 0px 0px;
+}
+p {
+  color: gray;
+}
+p a,
+li a {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+input:focus,
+input::placeholder {
+  outline: none;
+  color: blue;
+  opacity: 0.5;
+}
 /*----------------------٣-----------------------*/
 /*               HELPER CLASSES                 */
 /*
@@ -41,57 +91,219 @@ classes
 على سبيل المثال: النمط الخاص بالزر الأزرق الذي يستعمله المصمم في كل الصفحات تقريباً
 */
 /*----------------------------------------------*/
-
-
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button {
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+  width: 40%;
+}
+.is-primary {
+  color: white;
+  background-color: blue;
+}
+.is-secondary {
+  width: 50%;
+  color: blue;
+  background-color: white;
+  margin-bottom: 5px;
+}
+.is-outline {
+  width: 50%;
+  color: white;
+  border: 2px solid white;
+}
+.widget {
+  padding: 50px 0px 0px;
+}
+.widget__desc h3 {
+  font-family: AvenirNextDemiBold;
+  text-align: center;
+}
+.widget__desc p {
+  text-align: center;
+}
 /*----------------------٤-----------------------*/
 /*                    LAYOUT                    */
 /*                البناء العام للصفحة           */
 /*----------------------------------------------*/
 
-
-
 /*----------------------٥-----------------------*/
 /*                    HEADER                    */
 /*----------------------------------------------*/
-
-
-
+header .container {
+  justify-content: space-between;
+  padding: 20px;
+}
+nav {
+  display: none;
+}
+.logo img {
+  width: 80%;
+}
+.burger {
+  border: none;
+  background: none;
+}
+.burger div {
+  width: 18px;
+  height: 3px;
+  background-color: black;
+  margin: 3px;
+}
 /*----------------------٦-----------------------*/
 /*                     HERO                     */
 /*----------------------------------------------*/
-
-
-
+.hero .container {
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hero__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.hero__image img {
+  width: 100%;
+}
 /*----------------------٧-----------------------*/
 /*              MEET YOUR MATCH                 */
 /*----------------------------------------------*/
-
-
-
+.switcher {
+  display: flex;
+  align-items: center;
+}
+.switcher label input {
+  display: none;
+}
+.switcher {
+  display: flex;
+  justify-content: space-evenly;
+}
+.switcher span {
+  color: lightgray;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid blue;
+  margin-top: 10%;
+}
+.form-group input {
+  color: blue;
+  margin-left: 10px;
+  border-radius: 50px;
+  border: none;
+}
+.meetYourMatchــform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.meetYourMatch {
+  display: flex;
+  justify-content: center;
+  background: white;
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 50%,
+    rgb(255, 255, 255) 75%,
+    rgb(235, 237, 252) 50%
+  );
+}
+.is-searchResults .widget__desc h4,
+.is-searchResults .widget__desc p {
+  text-align: left;
+}
 /*----------------------٨-----------------------*/
 /*               HOW IT WORKS                   */
 /*----------------------------------------------*/
-
-
-
+.howItWorks .container {
+  flex-direction: column;
+}
+.is-howItWorks .widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
 /*----------------------٩-----------------------*/
 /*                 STORIES                      */
 /*----------------------------------------------*/
-
-
-
+.stories .container {
+  background-color: rgb(245, 244, 248);
+  flex-direction: column;
+}
+.stories .container h2 {
+  padding: 0;
+}
+.stories .container .widgets .widget {
+  padding: 10px 10px 10px;
+}
+.stories .container .widgets .widget .widget__desc h3 {
+  text-align: left;
+}
+.stories .container .widgets .widget .widget__image {
+  margin: 0;
+}
+.stories .container .widgets .widget .widget__image img {
+  margin: auto;
+  width: 100%;
+}
+.heading-paragraph {
+  padding: 0px 10px 0;
+  text-align: center;
+}
+.link {
+  color: blue;
+}
 /*----------------------١٠----------------------*/
 /*       Actions: Change A Life, Adopt A Pet    */
 /*----------------------------------------------*/
-
-
-
+.actions {
+  display: flex;
+  background-color: blue;
+  flex-wrap: wrap;
+}
+.actions .container {
+  flex-direction: column;
+  padding: 30px;
+}
+.actions .container h2 {
+  padding: 10px;
+  color: white;
+}
 /*---------------------١١-----------------------*/
 /*                    FOOTER                    */
 /*----------------------------------------------*/
-
-
-
+footer .container {
+  display: inline;
+  padding: 10px;
+  padding-left: 10px;
+}
+.copyrights {
+  padding: 10px;
+}
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer-nav .item {
+  width: 40%;
+  padding: 10px;
+}
+.footer-nav .item ul {
+  padding: 0;
+}
 /*----------------------١٢----------------------*/
 /*                    Responsive                */
 /*       كل ما هو متعلق بالهواتف والتابلت       */
