@@ -277,8 +277,6 @@ footer .container {
   h2 {
     font-size: xx-large;
   }
-  /*---------------HELPER CLASSES-----------------*/
-
   /*--------------------HEADER--------------------*/
   header .container {
     display: flex;
@@ -329,8 +327,6 @@ footer .container {
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-  /*---------------HOW IT WORKS-------------------*/
-
   /*-----------------STORIES----------------------*/
   .stories .container .widgets {
     display: flex;
@@ -338,8 +334,6 @@ footer .container {
     flex-wrap: wrap;
     width: 100%;
   }
-  /*-----Actions: Change A Life, Adopt A Pet------*/
-
   /*--------------------FOOTER--------------------*/
   footer .container {
     display: flex;
