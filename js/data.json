@@ -1,0 +1,53 @@
+{
+    "pets": [
+        {
+            "animalType": "Dog",
+            "gender": "Male",
+            "age": "1",
+            "name": "Teddy",
+            "city": "Jabriya",
+            "img": "./images/pet-01.png"
+        },
+        {
+            "animalType": "Cat",
+            "gender": "Male",
+            "age": "4",
+            "name": "Zach",
+            "city": "Funaitees",
+            "img": "./images/pet-02.png"
+        },
+        {
+            "animalType": "Dog",
+            "gender": "Female",
+            "age": "5",
+            "name": "Chow Chow",
+            "city": "Mubarak AlKabir",
+            "img": "./images/pet-03.png"
+        },
+        {
+            "animalType": "Dog",
+            "gender": "Female",
+            "age": "1",
+            "name": "Coco",
+            "city": "Funaitees",
+            "img": "./images/pet-04.png"
+        }
+    ], 
+    "stories": [
+        {
+            "story": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae, dignissimos distinctio, maiores error cumque laborum quos est reiciendis dolore totam officiis sint? Hic, quis? Odit excepturi repellat nesciunt ea!",
+            "title": "Cat turns into superhero.",
+            "img": "./images/stories/1.png"
+        },
+        {
+            "story": "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae, dignissimos distinctio, maiores error cumque laborum quos est reiciendis dolore totam officiis sint? Hic, quis? Odit excepturi repellat nesciunt ea!",
+            "title": "Dog learns how to code!",
+            "img": "./images/stories/2.png"
+        },
+        {
+            "story": "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae, dignissimos distinctio, maiores error cumque laborum quos est reiciendis dolore totam officiis sint? Hic, quis? Odit excepturi repellat nesciunt ea!",
+            "title": "Jesse the dog... wearing a top hat?!",
+            "img": "./images/stories/3.png"
+        }
+    ]
+}
