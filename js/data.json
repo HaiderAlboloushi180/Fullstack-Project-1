@@ -35,17 +35,17 @@
     ], 
     "stories": [
         {
-            "story": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae, dignissimos distinctio, maiores error cumque laborum quos est reiciendis dolore totam officiis sint? Hic, quis? Odit excepturi repellat nesciunt ea!",
+            "story": "Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story",
             "title": "Cat turns into superhero.",
             "img": "./images/stories/1.png"
         },
         {
-            "story": "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae, dignissimos distinctio, maiores error cumque laborum quos est reiciendis dolore totam officiis sint? Hic, quis? Odit excepturi repellat nesciunt ea!",
+            "story": "Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story",
             "title": "Dog learns how to code!",
             "img": "./images/stories/2.png"
         },
         {
-            "story": "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae, dignissimos distinctio, maiores error cumque laborum quos est reiciendis dolore totam officiis sint? Hic, quis? Odit excepturi repellat nesciunt ea!",
+            "story": "Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story",
             "title": "Jesse the dog... wearing a top hat?!",
             "img": "./images/stories/3.png"
         }
