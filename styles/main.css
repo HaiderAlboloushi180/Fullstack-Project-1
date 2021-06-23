@@ -345,6 +345,9 @@ footer .container {
     flex-wrap: wrap;
     width: 100%;
   }
+  .stories .container .widgets .widget {
+    width: 40%;
+  }
   /*--------------------FOOTER--------------------*/
   footer .container {
     display: flex;
