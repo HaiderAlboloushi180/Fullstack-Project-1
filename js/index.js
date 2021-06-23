@@ -109,7 +109,7 @@ for (let i = 0; i < links.length; i++) {
         if (para[i].style.display == 'none') {
             links[i].innerHTML = 'Close'
             para[i].style.display = 'block'
-        } else if (p.style.display) {
+        } else {
             links[i].innerHTML = 'Read More'
             para[i].style.display = 'none'
         }
