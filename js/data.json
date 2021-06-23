@@ -32,22 +32,5 @@
             "city": "Funaitees",
             "img": "./images/pet-04.png"
         }
-    ], 
-    "stories": [
-        {
-            "story": "Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story Story",
-            "title": "Cat turns into superhero.",
-            "img": "./images/stories/1.png"
-        },
-        {
-            "story": "Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story Other Story",
-            "title": "Dog learns how to code!",
-            "img": "./images/stories/2.png"
-        },
-        {
-            "story": "Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story Third Story",
-            "title": "Jesse the dog... wearing a top hat?!",
-            "img": "./images/stories/3.png"
-        }
     ]
 }
